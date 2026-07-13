@@ -1,56 +1,65 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-header{
+header {
     background-color: Aqua;
     height: 80px;
     display: flex;
     align-items: center;
 }
 
-ul{
+ul {
     text-decoration: none;
-    text-align:left;
-    align-items:center;
+    text-align: left;
 }
 
-ul li{
+ul li {
     display: inline;
     margin: 0 20px;
 }
 
-.container{
+.box1 {
+    background-color: lightblue;
+    color: Black;
+    height: 100px;
+    width: 100%;
+
+}
+
+.box {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+}
+
+.container {
     display: flex;
 }
 
-.red{
+.red {
     background-color: red;
     width: 50%;
     height: 90vh;
-    /* border: 2px solid black; */
     display: inline-block;
-    /* visibility: hidden; */
 }
 
-.green{
+.green {
     background-color: green;
-      width: 50%;
+    width: 50%;
     height: 90vh;
-    /* border: 2px solid black; */
     display: inline-block;
 }
 
-footer{
+footer {
     background-color: brown;
     color: white;
     padding: 34px;
     font-family: 'Baloo Bhai 2', cursive;
-    
+
 }
 
-.center{
+.center {
     text-align: center;
-    
+
 }
