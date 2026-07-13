@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color: Aqua;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    text-decoration: none;
+    text-align:left;
+    align-items:center;
+}
+
+ul li{
+    display: inline;
+    margin: 0 20px;
+}
+
+.red{
+    background-color: red;
+    width: 50%;
+    height: 90vh;
+    /* border: 2px solid black; */
+    display: inline-block;
+}
+
+.green{
+    background-color: green;
+      width: 50%;
+    height: 90vh;
+    /* border: 2px solid black; */
+    display: inline-block;
+}
+
+footer{
+    background-color: brown;
+    color: white;
+    height: 70px;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+
+.center{
+    text-align: center;
+
+}
