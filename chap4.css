@@ -21,13 +21,17 @@ ul li{
     margin: 0 20px;
 }
 
+.container{
+    display: flex;
+}
+
 .red{
     background-color: red;
     width: 50%;
     height: 90vh;
     /* border: 2px solid black; */
     display: inline-block;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .green{
